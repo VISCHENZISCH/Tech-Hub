@@ -1,0 +1,19 @@
+# Tech Hub - .gitignore
+
+# Fichiers de données et bases locales temporaires
+data/*.sqlite
+data/*.db
+*.tmp
+*.log
+
+# Fichiers système & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Fichiers d'environnement sensibles
+.env
+.env.local
