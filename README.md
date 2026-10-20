@@ -97,7 +97,7 @@ php init_db.php
 
 ---
 
-## 🛠️ Déploiement en Production sur Ubuntu Server (Apache)
+## Déploiement en Production sur Ubuntu Server (Apache)
 
 Consultez le guide exhaustif étape par étape : **[DEPLOYMENT.md](DEPLOYMENT.md)**.
 
