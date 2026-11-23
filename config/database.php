@@ -1,10 +1,4 @@
 <?php
-/**
- * Tech Hub - Configuration de la Base de Données MySQL
- * 
- * Définition des paramètres de connexion à MySQL/MariaDB.
- * Vous pouvez modifier ces valeurs directement ou via des variables d'environnement.
- */
 
 return [
     'driver' => 'mysql',

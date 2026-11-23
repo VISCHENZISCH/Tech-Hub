@@ -5,11 +5,6 @@
  */
 ?>
 <section class="home-hero-section" id="hero">
-    <div class="home-hero-bg-layer" aria-hidden="true">
-        <div class="home-hero-bg-image"></div>
-        <div class="home-hero-vignette"></div>
-    </div>
-
     <div class="container home-hero-container">
         <div class="home-hero-content reveal">
             <h1 class="home-hero-title">
@@ -35,7 +30,7 @@
         <!-- Composition Hero Droite : Serveur & Mobile -->
         <div class="home-hero-mockup-wrapper reveal">
             <div class="hero-dual-composition">
-                <!-- Serveur Web en arrière-plan -->
+                <!-- Serveur Web -->
                 <div class="hero-server-layer">
                     <picture>
                         <source srcset="assets/images/server-web.webp" type="image/webp">
@@ -48,7 +43,7 @@
                     </picture>
                 </div>
 
-                <!-- Smartphone au premier plan -->
+                <!-- Smartphone -->
                 <div class="hero-phone-layer">
                     <picture>
                         <source srcset="assets/images/bg-hero-new.webp" type="image/webp">
