@@ -8,10 +8,6 @@ $infra = $data['infrastructure'];
     <div class="container">
         <!-- Section Header -->
         <div class="section-header reveal">
-            <div class="badge-pill purple">
-                <?= render_icon('server', 'w-4 h-4', 2) ?>
-                <span><?= htmlspecialchars($infra['badge']) ?></span>
-            </div>
             <h2 class="section-title"><?= htmlspecialchars($infra['title']) ?></h2>
             <p class="section-subtitle"><?= htmlspecialchars($infra['subtitle']) ?></p>
         </div>

@@ -66,7 +66,7 @@ return [
         'badge' => 'Cybersécurité & Défense',
         'title' => 'Cybersécurité',
         'subtitle' => 'Les fondamentaux et les pratiques avancées pour protéger vos systèmes, réseaux et applications contre les cybermenaces.',
-        'banner_image' => 'assets/images/cybersecurity-banner.jpg',
+        'banner_image' => 'assets/images/cybersecurity-banner.webp',
         'topics' => [
             [
                 'icon' => 'shield',
@@ -191,7 +191,7 @@ return [
         'badge' => 'Stack & Outils',
         'title' => 'Technologies de Développement',
         'subtitle' => 'Les outils, langages et frameworks modernes pour créer des applications performantes, évolutives et fiables.',
-        'banner_image' => 'assets/images/development-banner.jpg',
+        'banner_image' => 'assets/images/development-banner.webp',
         'categories' => [
             [
                 'icon' => 'code',
@@ -244,12 +244,12 @@ return [
             [
                 'title' => 'Infrastructure On-Premise',
                 'subtitle' => 'Serveurs dédiés, virtualisation bare-metal & baies haute performance',
-                'image' => 'assets/images/server-room.jpg',
+                'image' => 'assets/images/server-room.webp',
             ],
             [
                 'title' => 'Cloud Computing',
                 'subtitle' => 'Scalabilité élastique, multirégion & haute disponibilité automatisée',
-                'image' => 'assets/images/cloud-computing.jpg',
+                'image' => 'assets/images/cloud-computing.webp',
             ],
         ],
         'server_topics' => [

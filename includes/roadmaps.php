@@ -8,10 +8,6 @@ $roadmaps = $data['roadmaps'];
     <div class="container">
         <!-- Section Header -->
         <div class="section-header reveal">
-            <div class="badge-pill cyan">
-                <?= render_icon('trending-up', 'w-4 h-4', 2) ?>
-                <span><?= htmlspecialchars($roadmaps['badge']) ?></span>
-            </div>
             <h2 class="section-title"><?= htmlspecialchars($roadmaps['title']) ?></h2>
             <p class="section-subtitle"><?= htmlspecialchars($roadmaps['subtitle']) ?></p>
         </div>

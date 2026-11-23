@@ -8,10 +8,6 @@ $techSection = $data['technologies'];
     <div class="container">
         <!-- Section Header -->
         <div class="section-header reveal">
-            <div class="badge-pill blue">
-                <?= render_icon('code', 'w-4 h-4', 2) ?>
-                <span><?= htmlspecialchars($techSection['badge']) ?></span>
-            </div>
             <h2 class="section-title"><?= htmlspecialchars($techSection['title']) ?></h2>
             <p class="section-subtitle"><?= htmlspecialchars($techSection['subtitle']) ?></p>
         </div>

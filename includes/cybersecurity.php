@@ -8,10 +8,6 @@ $cyber = $data['cybersecurity'];
     <div class="container">
         <!-- Section Header -->
         <div class="section-header reveal">
-            <div class="badge-pill red">
-                <?= render_icon('shield', 'w-4 h-4', 2) ?>
-                <span><?= htmlspecialchars($cyber['badge']) ?></span>
-            </div>
             <h2 class="section-title"><?= htmlspecialchars($cyber['title']) ?></h2>
             <p class="section-subtitle"><?= htmlspecialchars($cyber['subtitle']) ?></p>
         </div>

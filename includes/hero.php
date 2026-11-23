@@ -31,5 +31,36 @@
                 </a>
             </div>
         </div>
+
+        <!-- Composition Hero Droite : Serveur & Mobile -->
+        <div class="home-hero-mockup-wrapper reveal">
+            <div class="hero-dual-composition">
+                <!-- Serveur Web en arrière-plan -->
+                <div class="hero-server-layer">
+                    <picture>
+                        <source srcset="assets/images/server-web.webp" type="image/webp">
+                        <img src="assets/images/server-web.png" 
+                             alt="Serveur & Infrastructure Tech Hub" 
+                             class="hero-server-img" 
+                             width="736" 
+                             height="528"
+                             loading="eager">
+                    </picture>
+                </div>
+
+                <!-- Smartphone au premier plan -->
+                <div class="hero-phone-layer">
+                    <picture>
+                        <source srcset="assets/images/bg-hero-new.webp" type="image/webp">
+                        <img src="assets/images/bg-hero-new.png" 
+                             alt="Interface Mobile Tech Hub" 
+                             class="hero-phone-img" 
+                             width="640" 
+                             height="640"
+                             loading="eager">
+                    </picture>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
